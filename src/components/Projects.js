@@ -65,7 +65,7 @@ const Projects = () => {
                                                 <Tab.Pane eventKey="first">
                                                     <Row>
                                                         {
-                                                            projects?.map((project, index) => {
+                                                            projects.map((project, index) => {
                                                                 return (
                                                                     <ProjectCard
                                                                         key={index}
