@@ -1,8 +1,8 @@
 import { Container, Row, Col } from "react-bootstrap";
-import logo from "../assets/img/logo.png";
+import logo from "../assets/img/logo.webp";
 import navIcon1 from "../assets/img/nav-icon1.svg";
-import navIcon2 from '../assets/img/nav-icon5.png';
-import navIcon3 from '../assets/img/nav-icon4.png';
+import navIcon2 from '../assets/img/nav-icon5.webp';
+import navIcon3 from '../assets/img/nav-icon4.webp';
 
 const Footer = () => {
     return (

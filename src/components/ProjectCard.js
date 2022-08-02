@@ -1,6 +1,6 @@
 import { Col } from "react-bootstrap";
 
-import projectImg from "../assets/img/project-img.jpg";
+import projectImg from "../assets/img/project-img.webp";
 
 const ProjectCard = ({ name, description, html_url }) => {
     return (

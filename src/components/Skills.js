@@ -1,7 +1,7 @@
 import graphic from "../assets/img/graphic.svg";
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
-import colorSharp from "../assets/img/color-sharp.png";
+import colorSharp from "../assets/img/color-sharp.webp";
 
 const Skills = () => {
     
