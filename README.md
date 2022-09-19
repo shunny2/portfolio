@@ -1,19 +1,23 @@
+<p align="center">
+<a href="#about-application">About Application</a>
+&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+<a href="#technologies">Technologies</a>
+&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+<a href="#status">Status</a>
+</p>
+
+</br>
+
+![portfolio-img](https://user-images.githubusercontent.com/72872854/191133747-a1c58735-7098-4006-a778-4b2e0ca78ddd.png)
+
 ## About Application
+Welcome to my portfolio!\
+Web application built to help customers connect with me.
 
-Welcome to my portfolio!
+## Technologies
+  - [ReactJS](https://reactjs.org/)
+  - [NodeJS](https://nodejs.org/)
 
-![portifolio_img](https://user-images.githubusercontent.com/72872854/179796151-01b6c0ca-2016-4a6f-8762-2ba43472098b.png)
+## Status
 
 > Status: Developing.
-
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
