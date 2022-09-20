@@ -11,16 +11,17 @@ import api from "../services/api";
 const Projects = () => {
 
     const [projects, setProjects] = useState({});
+    const [secondPartProjects, setSecondPartProjects] = useState({});
+    const [thirdPartProjects, setThirdPartProjects] = useState({});
     const [loading, setLoading] = useState(true);
 
     useEffect(() => {
         setLoading(true);
-        api.get(``, {
-            params: {
-                per_page: 9
-            }
-        })
+        api.get(``)
             .then((response) => {
+                let threePartIndex = Math.ceil(response.data.length / 3);
+                setThirdPartProjects(response.data.splice(-threePartIndex));
+                setSecondPartProjects(response.data.splice(-threePartIndex));
                 setProjects(response.data);
                 setLoading(false);
             })
@@ -77,10 +78,32 @@ const Projects = () => {
                                                     </Row>
                                                 </Tab.Pane>
                                                 <Tab.Pane eventKey="second">
-                                                    <p>Project in progress.</p>
+                                                    <Row>
+                                                        {
+                                                            secondPartProjects.map((project, index) => {
+                                                                return (
+                                                                    <ProjectCard
+                                                                        key={index}
+                                                                        {...project}
+                                                                    />
+                                                                )
+                                                            })
+                                                        }
+                                                    </Row>
                                                 </Tab.Pane>
                                                 <Tab.Pane eventKey="third">
-                                                    <p>Project in progress.</p>
+                                                    <Row>
+                                                        {
+                                                            thirdPartProjects.map((project, index) => {
+                                                                return (
+                                                                    <ProjectCard
+                                                                        key={index}
+                                                                        {...project}
+                                                                    />
+                                                                )
+                                                            })
+                                                        }
+                                                    </Row>
                                                 </Tab.Pane>
                                             </Tab.Content>
                                         }
