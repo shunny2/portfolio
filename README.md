@@ -18,6 +18,6 @@ Web application built to help customers connect with me.
   - [ReactJS](https://reactjs.org/)
   - [NodeJS](https://nodejs.org/)
 
-## Status
+## Project Status
 
-> Status: Finish.
+> Status: Completed.
