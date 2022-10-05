@@ -1,4 +1,6 @@
 import { useEffect, useState } from 'react';
+import { useTranslation } from 'react-i18next';
+
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
@@ -31,6 +33,8 @@ const NavBar = () => {
         setActiveLink(value);
     }
 
+    const { t } = useTranslation();
+
     return (
         <Navbar expand="md" className={scrolled ? "scrolled" : ""}>
             <Container>
@@ -42,9 +46,9 @@ const NavBar = () => {
                 </Navbar.Toggle>
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="ms-auto">
-                        <Nav.Link href="#home" className={activeLink === 'home' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('home')}>Home</Nav.Link>
-                        <Nav.Link href="#skills" className={activeLink === 'skills' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('skills')}>Skills</Nav.Link>
-                        <Nav.Link href="#projects" className={activeLink === 'projects' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('projects')}>Projects</Nav.Link>
+                        <Nav.Link href="#home" className={activeLink === 'home' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('home')}>{t("navbar.links.home")}</Nav.Link>
+                        <Nav.Link href="#skills" className={activeLink === 'skills' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('skills')}>{t("navbar.links.skills")}</Nav.Link>
+                        <Nav.Link href="#projects" className={activeLink === 'projects' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('projects')}>{t("navbar.links.projects")}</Nav.Link>
                     </Nav>
                     <span className="navbar-text">
                         <div className="social-icon">
@@ -56,7 +60,7 @@ const NavBar = () => {
                             <a href="https://github.com/shunny2" rel="noreferrer" target="_blank"><img src={navIcon3} alt="Github" /></a>
                         </div>
                         <a href='https://bit.ly/alxdv-whatsapp' rel="noreferrer" target="_blank">
-                            <button className="vvd" onClick={() => { }}><span>Let’s Connect</span></button>
+                            <button className="vvd" onClick={() => { }}><span>{t("navbar.button.connect")}</span></button>
                         </a>
                     </span>
                 </Navbar.Collapse>

@@ -1,7 +1,10 @@
 import graphic from "../assets/img/graphic.svg";
 import Carousel from 'react-multi-carousel';
-import 'react-multi-carousel/lib/styles.css';
 import colorSharp from "../assets/img/color-sharp.webp";
+
+import { useTranslation } from "react-i18next";
+
+import 'react-multi-carousel/lib/styles.css';
 
 const Skills = () => {
     
@@ -25,42 +28,44 @@ const Skills = () => {
         }
     };
 
+    const { t } = useTranslation();
+
     return (
         <section className="skill" id="skills">
             <div className="container">
                 <div className="row">
                     <div className="col-12">
                         <div className="skill-bx wow zoomIn">
-                            <h2>Skills</h2>
-                            <p>Some of the hard and soft skills I developed during my journey as a developer.<br></br> I am committed to seeking and developing new skills.</p>
+                            <h2>{t("skills.title")}</h2>
+                            <p>{t("skills.hardAndSoftSkills")}<br></br> {t("skills.newSkills")}</p>
                             <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme skill-slider">
                                 <div className="item">
                                     <img src={graphic} alt="Graphic skills" />
-                                    <h5>Web Development</h5>
+                                    <h5>{t("skills.skillsPercent.web")}</h5>
                                 </div>
                                 <div className="item">
                                     <img src={graphic} alt="Graphic skills" />
-                                    <h5>Brand Identity</h5>
+                                    <h5>{t("skills.skillsPercent.brand")}</h5>
                                 </div>
                                 <div className="item">
                                     <img src={graphic} alt="Graphic skills" />
-                                    <h5>Logo Design</h5>
+                                    <h5>{t("skills.skillsPercent.logo")}</h5>
                                 </div>
                                 <div className="item">
                                     <img src={graphic} alt="Graphic skills" />
-                                    <h5>Backend Development</h5>
+                                    <h5>{t("skills.skillsPercent.backend")}</h5>
                                 </div>
                                 <div className="item">
                                     <img src={graphic} alt="Graphic skills" />
-                                    <h5>Creativity</h5>
+                                    <h5>{t("skills.skillsPercent.creativity")}</h5>
                                 </div>
                                 <div className="item">
                                     <img src={graphic} alt="Graphic skills" />
-                                    <h5>Proactivity</h5>
+                                    <h5>{t("skills.skillsPercent.proactivity")}</h5>
                                 </div>
                                 <div className="item">
                                     <img src={graphic} alt="Graphic skills" />
-                                    <h5>Empathy</h5>
+                                    <h5>{t("skills.skillsPercent.empathy")}</h5>
                                 </div>
                             </Carousel>
                         </div>

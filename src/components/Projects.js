@@ -1,10 +1,13 @@
 import { useEffect, useState } from "react";
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
-import 'animate.css';
+import { useTranslation } from "react-i18next";
+
 import TrackVisibility from 'react-on-screen';
 import ProjectCard from "./ProjectCard";
 import colorSharp2 from "../assets/img/color-sharp2.webp";
 import giffLoading from "../assets/img/loading.gif";
+
+import 'animate.css';
 
 import api from "../services/api";
 
@@ -14,6 +17,8 @@ const Projects = () => {
     const [secondPartProjects, setSecondPartProjects] = useState({});
     const [thirdPartProjects, setThirdPartProjects] = useState({});
     const [loading, setLoading] = useState(true);
+
+    const { t } = useTranslation();
 
     useEffect(() => {
         setLoading(true);
@@ -38,18 +43,18 @@ const Projects = () => {
                         <TrackVisibility>
                             {({ isVisible }) =>
                                 <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
-                                    <h2>Projects</h2>
-                                    <p>Some of the projects are already developed and in progress.</p>
+                                    <h2>{t("projects.title")}</h2>
+                                    <p>{t("projects.someProjects")}</p>
                                     <Tab.Container id="projects-tabs" defaultActiveKey="first">
                                         <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">
                                             <Nav.Item>
-                                                <Nav.Link eventKey="first">Tab 1</Nav.Link>
+                                                <Nav.Link eventKey="first">{t("projects.tabs.tab1")}</Nav.Link>
                                             </Nav.Item>
                                             <Nav.Item>
-                                                <Nav.Link eventKey="second">Tab 2</Nav.Link>
+                                                <Nav.Link eventKey="second">{t("projects.tabs.tab2")}</Nav.Link>
                                             </Nav.Item>
                                             <Nav.Item>
-                                                <Nav.Link eventKey="third">Tab 3</Nav.Link>
+                                                <Nav.Link eventKey="third">{t("projects.tabs.tab3")}</Nav.Link>
                                             </Nav.Item>
                                         </Nav>
 
