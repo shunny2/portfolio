@@ -107,7 +107,7 @@ nav.navbar a.navbar-brand img {
   width: 80%;
 }
 
-@media (max-width:450px) {
+@media (max-width:464px) {
   nav.navbar a.navbar-brand img {
     width: 100%;
   }
@@ -154,6 +154,12 @@ span.navbar-text {
     border: 1px solid rgba(255, 255, 255, 0.5);
 }
 
+@media (max-width:360px) {
+  .social-icon a {
+    margin-top: 6px;
+  }
+}
+
 .social-icon a::before {
     content: "";
     width: 42px;
@@ -188,6 +194,24 @@ span.navbar-text {
 	position: relative;
 	background-color: transparent;
 	transition: 0.3s ease-in-out;
+}
+
+@media (max-width:464px) {
+  .navbar-text button {
+    font-size: 16px;
+  }
+}
+
+@media (max-width:360px) {
+  .navbar-text button {
+    font-size: 14.5px;
+  }
+}
+
+@media (max-width:280px) {
+  .navbar-text button {
+    font-size: 9.2px;
+  }
 }
 
 .navbar-text button span {
@@ -291,6 +315,12 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   display: inline-block;
 }
 
+@media (max-width:280px) {
+  .banner .tagline {
+    font-size: 16px;
+  }
+}
+
 .banner h1 {
   font-size: 65px;
   font-weight: 700;
@@ -298,6 +328,18 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   line-height: 1;
   margin-bottom: 20px;
   display: block;
+}
+
+@media (max-width:464px) {
+  .banner h1 {
+    font-size: 48px;
+  }
+}
+
+@media (max-width:360px) {
+  .banner h1 {
+    font-size: 40px;
+  }
 }
 
 .banner p {
@@ -370,6 +412,16 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .skill h2 {
 	font-size: 45px;
 	font-weight: 700;
+}
+
+@media (max-width:280px) {
+  .skill h2 {
+    font-size: 26px;
+  }
+
+  .skill h5 {
+    font-size: 14px;
+  }
 }
 
 .skill p {
@@ -744,7 +796,22 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 
 .footer img {
-  width: 16%;
+  width: 22.57%;
+}
+
+@media (min-width:720px) and (max-width:912px) {
+  .footer img {
+    width: 50%;
+  }
+}
+
+@media (max-width:464px) {
+  .footer img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 22%;
+  }
 }
 
 .footer p {
