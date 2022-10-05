@@ -1,0 +1,94 @@
+{
+    "translation": {
+        "navbar": {
+            "links": {
+                "home": "Home",
+                "skills": "Skills",
+                "projects": "Projects"
+            },
+            "button": {
+                "connect": "Let's Connect"
+            }
+        },
+        "banner": {
+            "welcome": "Welcome to my Portfolio",
+            "me": "Hi! I'm Alexander,",
+            "stack": "Full Stack Developer",
+            "bio": "Technology, games, and astronomy lover.",
+            "bioMid": "Well... after finishing high school, I wanted to take an astronomy course. However, for some personal reasons, I was not able to join the course. Two years passed, I decided to join the Software Engineering course with a friend.",
+            "bioEnd": "Today, graduated as a Software Engineer, I'm eager to make a career in this area.",
+            "button": {
+                "connect": "Let’s Connect"
+            }
+        },
+        "contact": {
+            "title": "Get In Touch",
+            "message": {
+                "success": "Message sent successfully",
+                "wrong": "Something went wrong, please try again later."
+            },
+            "form": {
+                "firstName": "First Name",
+                "lastName": "Last Name",
+                "email": "Email Address",
+                "phone": "Phone No.",
+                "message": "Message"
+            },
+            "validation": {
+                "firstName": {
+                    "required": "First Name is a required field",
+                    "min": "First Name must be at least 4 characters",
+                    "max": "First Name must be at most 20 characters"
+                },
+                "lastName": {
+                    "required": "Last Name is a required field",
+                    "min": "Last Name must be at least 4 characters",
+                    "max": "Last Name must be at most 20 characters"
+                },
+                "email": {
+                    "email": "Email must be a valid email",
+                    "required": "Email is a required field"
+                },
+                "phone": {
+                    "regex": "Phone number is not valid",
+                    "required": "Phone is a required field"
+                },
+                "message": {
+                    "required": "Message is a required field",
+                    "min": "Message must be at least 10 characters",
+                    "max": "Message must be at most 1000 characters"
+                }
+            },
+            "button": {
+                "send": "Send",
+                "sending": "Sending..."
+            }
+        },
+        "projects": {
+            "title": "Projects",
+            "someProjects": "Some of the projects are already developed and in progress.",
+            "tabs": {
+                "tab1": "Tab 1",
+                "tab2": "Tab 2",
+                "tab3": "Tab 3"
+            }
+        },
+        "skills": {
+            "title": "Skills",
+            "hardAndSoftSkills": "Some of the hard and soft skills I developed during my journey as a developer.",
+            "newSkills": "I am committed to seeking and developing new skills.",
+            "skillsPercent": {
+                "web": "Web Development",
+                "brand": "Brand Identity",
+                "logo": "Logo Design",
+                "backend": "Backend Development",
+                "creativity": "Creativity",
+                "proactivity": "Proactivity",
+                "empathy": "Empathy"
+            }
+        },
+        "footer": {
+            "copyright": "Copyright 2022. All Rights Reserved"
+        }
+    }
+}

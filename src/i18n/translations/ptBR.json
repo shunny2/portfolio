@@ -1,0 +1,94 @@
+{
+    "translation": {
+        "navbar": {
+            "links": {
+                "home": "Home",
+                "skills": "Habilidades",
+                "projects": "Projetos"
+            },
+            "button": {
+                "connect": "Conectar-se"
+            }
+        },
+        "banner": {
+            "welcome": "Bem vindo ao meu Portfólio",
+            "me": "Oi! Eu sou Alexander,",
+            "stack": "Desenvolvedor Full Stack",
+            "bio": "Um Amante de tecnologia, jogos e astronomia.",
+            "bioMid": "Bem... depois de terminar o ensino médio, eu queria fazer um curso de astronomia. No entanto, por alguns motivos pessoais, não pude participar do curso. Dois anos se passaram, decidi ingressar no curso de Engenharia de Software com um amigo.",
+            "bioEnd": "Hoje, formado em Engenharia de Software, estou ansioso para fazer carreira nesta área.",
+            "button": {
+                "connect": "Conectar-se"
+            }
+        },
+        "contact": {
+            "title": "Entrar em contato",
+            "message": {
+                "success": "Mensagem enviada com sucesso",
+                "wrong": "Algo deu errado, tente novamente mais tarde."
+            },
+            "form": {
+                "firstName": "Primeiro nome",
+                "lastName": "Sobrenome",
+                "email": "Endereço de email",
+                "phone": "Telefone",
+                "message": "Messagem"
+            },
+            "validation": {
+                "firstName": {
+                    "required": "O nome é um campo obrigatório",
+                    "min": "O nome deve ter pelo menos 4 caracteres",
+                    "max": "O nome deve ter no máximo 20 caracteres"
+                },
+                "lastName": {
+                    "required": "O sobrenome é um campo obrigatório",
+                    "min": "O sobrenome deve ter pelo menos 4 caracteres",
+                    "max": "O sobrenome deve ter no máximo 20 caracteres"
+                },
+                "email": {
+                    "email": "O e-mail deve ser um e-mail válido",
+                    "required": "E-mail é um campo obrigatório"
+                },
+                "phone": {
+                    "regex": "O número de telefone não é válido",
+                    "required": "Telefone é um campo obrigatório"
+                },
+                "message": {
+                    "required": "A mensagem é um campo obrigatório",
+                    "min": "A mensagem deve ter pelo menos 10 caracteres",
+                    "max": "A mensagem deve ter no máximo 1.000 caracteres"
+                }
+            },
+            "button": {
+                "send": "Enviar",
+                "sending": "Enviando..."
+            }
+        },
+        "projects": {
+            "title": "Projetos",
+            "someProjects": "Alguns dos projetos já desenvolvidos e em andamento.",
+            "tabs": {
+                "tab1": "Aba 1",
+                "tab2": "Aba 2",
+                "tab3": "Aba 3"
+            }
+        },
+        "skills": {
+            "title": "Habilidades",
+            "hardAndSoftSkills": "Algumas das hard e soft skills que desenvolvi durante minha jornada como desenvolvedor.",
+            "newSkills": "Estou empenhado em buscar e desenvolver novas habilidades.",
+            "skillsPercent": {
+                "web": "Desenvolvimento Web",
+                "brand": "Identidade de Marca",
+                "logo": "Design de Logotipo",
+                "backend": "Desenvolvimento Backend",
+                "creativity": "Criatividade",
+                "proactivity": "Proatividade",
+                "empathy": "Empatia"
+            }
+        },
+        "footer": {
+            "copyright": "Copyright 2022. Todos os direitos reservados"
+        }
+    }
+}

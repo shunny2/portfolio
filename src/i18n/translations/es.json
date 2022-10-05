@@ -1,0 +1,94 @@
+{
+    "translation": {
+        "navbar": {
+            "links": {
+                "home": "Home",
+                "skills": "Habilidades",
+                "projects": "Proyectos"
+            },
+            "button": {
+                "connect": "Conectémonos"
+            }
+        },
+        "banner": {
+            "welcome": "Bienvenido a mi cartera",
+            "me": "¡Hola! soy Alexander,",
+            "stack": "Desarrollador Full Stack",
+            "bio": "Amante de la tecnología, los juegos y la astronomía.",
+            "bioMid": "Bueno... después de terminar la secundaria, quise tomar un curso de astronomía. Sin embargo, por algunas razones personales, no pude unirme al curso. Pasaron dos años, decidí unirme al curso de Ingeniería de Software con un amigo.",
+            "bioEnd": "Hoy, graduado como Ingeniero de Software, estoy ansioso por hacer una carrera en esta área.",
+            "button": {
+                "connect": "Conectémonos"
+            }
+        },
+        "contact": {
+            "title": "Ponerse en contacto",
+            "message": {
+                "success": "Mensaje enviado con éxito",
+                "wrong": "Algo salió mal, inténtalo de nuevo más tarde."
+            },
+            "form": {
+                "firstName": "Primer nombre",
+                "lastName": "Apellido",
+                "email": "Dirección de correo electrónico",
+                "phone": "Telefono",
+                "message": "Mensaje"
+            },
+            "validation": {
+                "firstName": {
+                    "required": "El nombre es un campo obligatorio",
+                    "min": "El nombre debe tener al menos 4 caracteres",
+                    "max": "El nombre debe tener como máximo 20 caracteres"
+                },
+                "lastName": {
+                    "required": "El apellido es un campo obligatorio",
+                    "min": "El apellido debe tener al menos 4 caracteres",
+                    "max": "El apellido debe tener como máximo 20 caracteres"
+                },
+                "email": {
+                    "email": "El correo electrónico debe ser un correo electrónico válido",
+                    "required": "El correo electrónico es un campo obligatorio"
+                },
+                "phone": {
+                    "regex": "El número de teléfono no es válido",
+                    "required": "El teléfono es un campo obligatorio"
+                },
+                "message": {
+                    "required": "El mensaje es un campo obligatorio",
+                    "min": "El mensaje debe tener al menos 10 caracteres",
+                    "max": "El mensaje debe tener como máximo 1000 caracteres"
+                }
+            },
+            "button": {
+                "send": "Enviar",
+                "sending": "Enviando..."
+            }
+        },
+        "projects": {
+            "title": "Proyectos",
+            "someProjects": "Algunos de los proyectos ya están desarrollados y en marcha.",
+            "tabs": {
+                "tab1": "Pestaña 1",
+                "tab2": "Pestaña 2",
+                "tab3": "Pestaña 3"
+            }
+        },
+        "skills": {
+            "title": "Habilidades",
+            "hardAndSoftSkills": "Algunas de las habilidades duras y blandas que desarrollé durante mi viaje como desarrollador.",
+            "newSkills": "Me comprometo a buscar y desarrollar nuevas habilidades.",
+            "skillsPercent": {
+                "web": "Desarrollo web",
+                "brand": "Identidad de la marca",
+                "logo": "Diseño de logo",
+                "backend": "Desarrollo de back-end",
+                "creativity": "Creatividad",
+                "proactivity": "Proactividad",
+                "empathy": "Empatía"
+            }
+        },
+        "footer": {
+            "copyright": "Copyright 2022. Reservados todos los derechos"
+        }
+    }
+}
