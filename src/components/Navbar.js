@@ -52,12 +52,12 @@ const NavBar = () => {
                     </Nav>
                     <span className="navbar-text">
                         <div className="social-icon">
-                            <a href="https://www.linkedin.com/in/alexander-davis-2669191b9/" rel="noreferrer" target="_blank"><img src={navIcon1} alt="Linkedin" /></a>
+                            <a href="https://www.linkedin.com/in/alexander-davis-2669191b9/" rel="noreferrer" title={t("navbar.anchors.linkedin")} target="_blank"><img src={navIcon1} alt="Linkedin" /></a>
                             <a href="mailto:alexander.davis.098@gmail.com?subject=Oportunidade&body=Ol%C3%A1%20Alexander%2C%20tudo%20
                                 bem%3F%0D%0AGostaria%20de%20lhe%20oferecer%20uma%20oportunidade%20de%20emprego.%20Podemos%20marcar%20
-                                uma%20entrevista%3F" rel="noreferrer" target="_blank"><img src={navIcon2} alt="Mail" />
+                                uma%20entrevista%3F" rel="noreferrer" title={t("navbar.anchors.gmail")} target="_blank"><img src={navIcon2} alt="Mail" />
                             </a>
-                            <a href="https://github.com/shunny2" rel="noreferrer" target="_blank"><img src={navIcon3} alt="Github" /></a>
+                            <a href="https://github.com/shunny2" rel="noreferrer" title={t("navbar.anchors.github")} target="_blank"><img src={navIcon3} alt="Github" /></a>
                         </div>
                         <a href='https://bit.ly/alxdv-whatsapp' rel="noreferrer" target="_blank">
                             <button className="vvd" onClick={() => { }}><span>{t("navbar.button.connect")}</span></button>
