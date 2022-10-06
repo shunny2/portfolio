@@ -6,6 +6,11 @@
                 "skills": "Skills",
                 "projects": "Projects"
             },
+            "anchors": {
+                "linkedin": "Visit Linkedin",
+                "gmail": "Send email",
+                "github": "Visit Github"
+            },
             "button": {
                 "connect": "Let's Connect"
             }
@@ -88,6 +93,11 @@
             }
         },
         "footer": {
+            "anchors": {
+                "linkedin": "Visit Linkedin",
+                "gmail": "Send email",
+                "github": "Visit Github"
+            },
             "copyright": "Copyright 2022. All Rights Reserved"
         }
     }
