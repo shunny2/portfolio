@@ -22,8 +22,6 @@ Web application built to help customers connect with me.
 
 > Status: Completed.
 
-</br>
-
 <hr></hr>
 
 <p align="center">Created by <a href="https://github.com/shunny2"><b>Alexander Davis</b></a>.</p>
