@@ -3,8 +3,8 @@ import { useTranslation } from "react-i18next";
 
 import logo from "../assets/img/logo.webp";
 import navIcon1 from "../assets/img/nav-icon1.svg";
-import navIcon2 from '../assets/img/nav-icon5.webp';
-import navIcon3 from '../assets/img/nav-icon4.webp';
+import navIcon2 from "../assets/img/nav-icon5.webp";
+import navIcon3 from "../assets/img/nav-icon4.webp";
 
 const Footer = () => {
 

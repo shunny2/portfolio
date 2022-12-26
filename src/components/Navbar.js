@@ -1,18 +1,18 @@
-import { useEffect, useState } from 'react';
-import { useTranslation } from 'react-i18next';
+import { useEffect, useState } from "react";
+import { useTranslation } from "react-i18next";
 
-import Container from 'react-bootstrap/Container';
-import Nav from 'react-bootstrap/Nav';
-import Navbar from 'react-bootstrap/Navbar';
+import Container from "react-bootstrap/Container";
+import Nav from "react-bootstrap/Nav";
+import Navbar from "react-bootstrap/Navbar";
 
-import logo from '../assets/img/logo.webp';
-import navIcon1 from '../assets/img/nav-icon1.svg';
-import navIcon2 from '../assets/img/nav-icon5.webp';
-import navIcon3 from '../assets/img/nav-icon4.webp';
+import logo from "../assets/img/logo.webp";
+import navIcon1 from "../assets/img/nav-icon1.svg";
+import navIcon2 from "../assets/img/nav-icon5.webp";
+import navIcon3 from "../assets/img/nav-icon4.webp";
 
 const NavBar = () => {
 
-    const [activeLink, setActiveLink] = useState('home');
+    const [activeLink, setActiveLink] = useState("home");
     const [scrolled, setScrolled] = useState(false);
 
     useEffect(() => {
@@ -46,9 +46,9 @@ const NavBar = () => {
                 </Navbar.Toggle>
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="ms-auto">
-                        <Nav.Link href="#home" className={activeLink === 'home' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('home')}>{t("navbar.links.home")}</Nav.Link>
-                        <Nav.Link href="#skills" className={activeLink === 'skills' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('skills')}>{t("navbar.links.skills")}</Nav.Link>
-                        <Nav.Link href="#projects" className={activeLink === 'projects' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('projects')}>{t("navbar.links.projects")}</Nav.Link>
+                        <Nav.Link href="#home" className={activeLink === "home" ? "active navbar-link" : "navbar-link"} onClick={() => onUpdateActiveLink("home")}>{t("navbar.links.home")}</Nav.Link>
+                        <Nav.Link href="#skills" className={activeLink === "skills" ? "active navbar-link" : "navbar-link"} onClick={() => onUpdateActiveLink("skills")}>{t("navbar.links.skills")}</Nav.Link>
+                        <Nav.Link href="#projects" className={activeLink === "projects" ? "active navbar-link" : "navbar-link"} onClick={() => onUpdateActiveLink("projects")}>{t("navbar.links.projects")}</Nav.Link>
                     </Nav>
                     <span className="navbar-text">
                         <div className="social-icon">
@@ -59,7 +59,7 @@ const NavBar = () => {
                             </a>
                             <a href="https://github.com/shunny2" rel="noreferrer" title={t("navbar.anchors.github")} target="_blank"><img src={navIcon3} alt="Github" /></a>
                         </div>
-                        <a href='https://bit.ly/alxdv-whatsapp' rel="noreferrer" target="_blank">
+                        <a href="https://bit.ly/alxdv-whatsapp" rel="noreferrer" target="_blank">
                             <button className="vvd" onClick={() => { }}><span>{t("navbar.button.connect")}</span></button>
                         </a>
                     </span>

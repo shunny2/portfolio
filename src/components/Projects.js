@@ -2,12 +2,12 @@ import { useEffect, useState } from "react";
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import { useTranslation } from "react-i18next";
 
-import TrackVisibility from 'react-on-screen';
+import TrackVisibility from "react-on-screen";
 import ProjectCard from "./ProjectCard";
 import colorSharp2 from "../assets/img/color-sharp2.webp";
 import giffLoading from "../assets/img/loading.gif";
 
-import 'animate.css';
+import "animate.css";
 
 import api from "../services/api";
 

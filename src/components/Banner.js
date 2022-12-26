@@ -1,12 +1,12 @@
 import { useState, useEffect } from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import { ArrowRightCircle } from 'react-bootstrap-icons';
+import { ArrowRightCircle } from "react-bootstrap-icons";
 import { useTranslation } from "react-i18next";
 
 import headerImg from "../assets/img/header-img.svg";
-import TrackVisibility from 'react-on-screen';
+import TrackVisibility from "react-on-screen";
 
-import 'animate.css';
+import "animate.css";
 
 const Banner = () => {
 
@@ -14,9 +14,10 @@ const Banner = () => {
 
     const [loopNum, setLoopNum] = useState(0);
     const [isDeleting, setIsDeleting] = useState(false);
-    const [text, setText] = useState('');
+    const [text, setText] = useState("");
     const [delta, setDelta] = useState(300 - Math.random() * 100);
-    const [index, setIndex] = useState(1);
+    // eslint-disable-next-line no-unused-vars
+    const [_, setIndex] = useState(1);
     const toRotate = [t("banner.stack")];
     const period = 2000;
 
@@ -26,6 +27,7 @@ const Banner = () => {
         }, delta);
 
         return () => { clearInterval(ticker) };
+    // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [text])
 
     const tick = () => {
@@ -43,7 +45,7 @@ const Banner = () => {
             setIsDeleting(true);
             setIndex(prevIndex => prevIndex - 1);
             setDelta(period);
-        } else if (isDeleting && updatedText === '') {
+        } else if (isDeleting && updatedText === "") {
             setIsDeleting(false);
             setLoopNum(loopNum + 1);
             setIndex(1);
@@ -65,7 +67,7 @@ const Banner = () => {
                                     <h1>{t("banner.me")} <span className="txt-rotate" dataperiod="1000" data-rotate={t("banner.stack")}><span className="wrap">{text}</span></span></h1>
                                     <p>{t("banner.bio")} <br/> {t("banner.bioMid")} <br/> {t("banner.bioEnd")}
                                     </p>
-                                    <a href='https://bit.ly/alxdv-whatsapp' rel="noreferrer" target="_blank">
+                                    <a href="https://bit.ly/alxdv-whatsapp" rel="noreferrer" target="_blank">
                                         <button className="vvd" onClick={() => { }}>{t("banner.button.connect")} <ArrowRightCircle size={25} /></button>
                                     </a>
                                 </div>}

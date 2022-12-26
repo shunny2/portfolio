@@ -1,10 +1,10 @@
 import graphic from "../assets/img/graphic.svg";
-import Carousel from 'react-multi-carousel';
+import Carousel from "react-multi-carousel";
 import colorSharp from "../assets/img/color-sharp.webp";
 
 import { useTranslation } from "react-i18next";
 
-import 'react-multi-carousel/lib/styles.css';
+import "react-multi-carousel/lib/styles.css";
 
 const Skills = () => {
     

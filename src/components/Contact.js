@@ -1,13 +1,13 @@
 import { useState } from "react";
 import { Container, Row, Col, Toast } from "react-bootstrap";
 import { useForm } from "react-hook-form";
-import { yupResolver } from '@hookform/resolvers/yup';
+import { yupResolver } from "@hookform/resolvers/yup";
 
 import contactImg from "../assets/img/contact-img.svg";
-import TrackVisibility from 'react-on-screen';
-import * as yup from 'yup';
+import TrackVisibility from "react-on-screen";
+import * as yup from "yup";
 
-import 'animate.css';
+import "animate.css";
 
 import i18n from "../i18n";
 
