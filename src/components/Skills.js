@@ -1,6 +1,6 @@
 import graphic from "../assets/img/graphic.svg";
 import Carousel from "react-multi-carousel";
-import colorSharp from "../assets/img/color-sharp.webp";
+import colorSharp from "../assets/img/color-sharp.png";
 
 import { useTranslation } from "react-i18next";
 
