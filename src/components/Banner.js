@@ -64,7 +64,7 @@ const Banner = () => {
                             {({ isVisible }) =>
                                 <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
                                     <span className="tagline">{t("banner.welcome")}</span>
-                                    <h1>{t("banner.me")} <span className="txt-rotate" dataperiod="1000" data-rotate={t("banner.stack")}><span className="wrap">{text}</span></span></h1>
+                                    <h1>{t("banner.me")} <br/> <span className="txt-rotate" dataperiod="1000" data-rotate={t("banner.stack")}><span className="wrap">{text}</span></span></h1>
                                     <p>{t("banner.bio")} <br/> {t("banner.bioMid")} <br/> {t("banner.bioEnd")}
                                     </p>
                                     <a href="https://bit.ly/alxdv-whatsapp" rel="noreferrer" target="_blank">

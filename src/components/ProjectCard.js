@@ -10,7 +10,7 @@ const ProjectCard = ({ name, description, html_url }) => {
                     <img src={projectImg}  alt="Project"/>
 
                     <div className="proj-txtx">
-                        <h4>{name}</h4>
+                        <h3>{name}</h3>
                         <span>{description}</span>
                     </div>
                 </a>

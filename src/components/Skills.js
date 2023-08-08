@@ -41,31 +41,31 @@ const Skills = () => {
                             <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme skill-slider">
                                 <div className="item">
                                     <img src={graphic} alt="Graphic skills" />
-                                    <h5>{t("skills.skillsPercent.web")}</h5>
+                                    <h3>{t("skills.skillsPercent.web")}</h3>
                                 </div>
                                 <div className="item">
                                     <img src={graphic} alt="Graphic skills" />
-                                    <h5>{t("skills.skillsPercent.brand")}</h5>
+                                    <h3>{t("skills.skillsPercent.brand")}</h3>
                                 </div>
                                 <div className="item">
                                     <img src={graphic} alt="Graphic skills" />
-                                    <h5>{t("skills.skillsPercent.logo")}</h5>
+                                    <h3>{t("skills.skillsPercent.logo")}</h3>
                                 </div>
                                 <div className="item">
                                     <img src={graphic} alt="Graphic skills" />
-                                    <h5>{t("skills.skillsPercent.backend")}</h5>
+                                    <h3>{t("skills.skillsPercent.backend")}</h3>
                                 </div>
                                 <div className="item">
                                     <img src={graphic} alt="Graphic skills" />
-                                    <h5>{t("skills.skillsPercent.creativity")}</h5>
+                                    <h3>{t("skills.skillsPercent.creativity")}</h3>
                                 </div>
                                 <div className="item">
                                     <img src={graphic} alt="Graphic skills" />
-                                    <h5>{t("skills.skillsPercent.proactivity")}</h5>
+                                    <h3>{t("skills.skillsPercent.proactivity")}</h3>
                                 </div>
                                 <div className="item">
                                     <img src={graphic} alt="Graphic skills" />
-                                    <h5>{t("skills.skillsPercent.empathy")}</h5>
+                                    <h3>{t("skills.skillsPercent.empathy")}</h3>
                                 </div>
                             </Carousel>
                         </div>

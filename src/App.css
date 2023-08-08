@@ -327,7 +327,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 
 .banner h1 {
-  font-size: 65px;
+  font-size: 60px;
   font-weight: 700;
   letter-spacing: 0.8px;
   line-height: 1;
@@ -419,12 +419,16 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 	font-weight: 700;
 }
 
+.skill h3 {
+  font-size: 20px;
+}
+
 @media (max-width:280px) {
   .skill h2 {
     font-size: 26px;
   }
 
-  .skill h5 {
+  .skill h3 {
     font-size: 14px;
   }
 }
@@ -605,7 +609,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   opacity: 1;
 }
 
-.proj-txtx h4 {
+.proj-txtx h3 {
   font-size: 30px;
   font-weight: 700;
   letter-spacing: 0.8px;
