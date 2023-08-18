@@ -58,7 +58,7 @@ const NavBar = () => {
                             </a>
                             <a href="https://github.com/shunny2" rel="noreferrer" title={t("navbar.anchors.github")} target="_blank"><img src={navIcon3} alt="Github" /></a>
                         </div>
-                        <a href="https://bit.ly/alxdv-whatsapp" rel="noreferrer" target="_blank">
+                        <a href="#connect" rel="noreferrer">
                             <button className="vvd" onClick={() => { }}><span>{t("navbar.button.connect")}</span></button>
                         </a>
                     </span>
